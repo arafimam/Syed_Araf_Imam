@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>About Me</title>
+        <!--Bootstrap CDN-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <!--CSS link-->
+        <link rel="stylesheet" href="styles.css">
+        <!--fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <!--Bootstrap navigation bar.-->
+        <nav class="navbar" style="background-color: #9999cc;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Syed Araf Imam. . .</a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">     About Me     </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link active" href="project.html">        Projects      </a>
+                  </li>
+
+                
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <!--Project Heading-->
+          <div class="container1">
+            <svg viewBox="0 0 1000 400">
+              <symbol id="s-text">
+                <text text-anchor="middle" x="50%" y="80%">Projects</text>
+              </symbol>
+          
+              <g class = "g-ants">
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+              </g>
+            </svg>
+          </div>
+
+          
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="proj1">
+                  <h1 class="fullStack">Full-Stack-project: Blog Website</h1>
+                  <hr >
+                  <p class="text">I am currenly learning back-end web development and using database for user information to create a full-stack 
+                    project that will enable users to login and post their own blogs and also watch other people's blogs. Every user will have their own personal account.
+                    Additional features will include: liking and sharing other people's post. 
+
+                  </p>
+                  <br>
+                  <a href="https://github.com/arafimam" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" style="text-align:center ;">View on GitHub</a>
+                  <br><br>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="proj2">
+                  <h1>Python: Briceps Curl Counter</h1>
+                  <hr >
+                  <p class="text">This project is created using mediapip and OpenCV packages. The program uses the computer webcam to view the user doing briceps curl and 
+                    shows a counter on the number of briceps curl done on a user-friendly graphical user interface.
+                    Mediapipe packages are used to detect the required body cordinates to calculate the number of briceps curl done. 
+                  </p>
+                  <a href="https://github.com/arafimam" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" style="text-align:center ;">View on GitHub</a>
+                  <br><br>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!--More-->
+
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="proj3">
+                  <h1 class="fullStack">CPEN-211: Simple RISC Machine</h1>
+                  <hr >
+                  <p class="text">
+                    Used Verilog to create a simple RISC machine on a FPGA De1-SOC board. The machine can perform 
+                    simple arithmetic operations and can hold memory to perfom computation using registers
+                    <br>
+                    Project Description:
+
+                  </p>
+                  <a href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:2089d661-706c-41ab-9c69-6a73c244a496#pageNum=1" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" style="text-align:center ;">Project description</a>
+                  
+                  <br><br>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="proj4">
+                  <h1>Sustainable Trash seperator</h1>
+                  <hr class="trashhr">
+                  <p class="text">
+                    A full stack development project which uses Python as a back-end system and HTML/CSS/JS/Apache web server to support
+                    front end of the project. The trash can seperate plastics, glass, bottles and batteries using Machine learning (customized neural network) and sensors. 
+                  </p>
+                  <a href="https://github.com/arafimam" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" style="text-align:center ;">View on GitHub</a>
+                  <br><br>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="proj5">
+                  <h1>Robot Navigation simulation</h1>
+                  <hr class="proj5hr">
+                  <p class="text">As a software engineer at UBC Open Robotics, I created a robot navigation simulation using python, ROS (Robot Operating sysytem). The system uses Gazebo 
+                    for the whole simulation to work. Also, used OnShape Api to convert a solidworks file to a robot file (URDF file) that allows the small robot to move in a pre-defined (Turtlebot-3) world/map.
+                  </p>
+                  <a href="https://github.com/arafimam" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" style="text-align:center ;">View on GitHub</a>
+                        <br><br>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          
+
+
+    
+
+
+
+          
+
+
+          <!--Buttons for more navigation-->
+          <br>
+          <a href="index.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">About Me</a>
+          <br><br><br>
+          <a href="project.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">My Projects</a>
+          <br><br>
+          <!---My java script link-->
+    <script src="index.js"></script>
+    <!--Bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
+          
+
+
+
+
+        
+    </body>
+
+    
+
+</html>

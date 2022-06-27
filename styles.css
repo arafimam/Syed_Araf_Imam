@@ -1,0 +1,297 @@
+body{
+    background-color: #2C3639;
+    text-align: center;
+}
+
+/*
+Customizing the navigation bar
+*/
+
+.container-fluid {
+    width: 100%;
+    padding-right: 185px;
+    padding-left: 185px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-brand{
+    font-size: 4rem;
+    text-decoration: solid;
+    padding-right: 5%;
+    font-family: 'Yellowtail', cursive;
+}
+
+.nav-link{
+    font-size: 1.25rem;
+    font-family: 'Permanent Marker', cursive;
+    
+}
+
+/*
+Customizing the bio section.
+*/
+
+.myPicture {
+    height: 500px;
+    width: 400px;
+    border-radius: 15%;
+    padding: 3px 3px 3px;
+    background-color: #9999cc;
+    
+  }
+
+.container{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.me{
+    color: whitesmoke;
+    
+    margin-top: 2%;
+    font-size: 2rem;
+}
+.dot {
+    border:none;
+    border-top:5px dotted white; 
+    color:white;
+    background-color:#2C3639;
+    height:1px;
+    width:100%;
+}
+
+.anim{
+    color: darkkhaki;
+}
+
+/*
+Work Experience Section
+*/
+.workHeading{
+    font-size: 3rem;
+    margin-top: 3%;
+    color: whitesmoke;
+    font-family: 'Yellowtail', cursive;
+}
+.atimi{
+    height: 400px;
+    width: 400px;
+    border-radius: 15%;
+    padding: 5px 5px 5px;
+    background-color: green;
+}
+.work{
+    color: whitesmoke;
+    
+    margin-top: 2%;
+    font-size: 20px;
+}
+.java{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.appium{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+.charles{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.col{
+    color: whitesmoke;
+}
+.greenLine{
+    border: 5px solid green;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.robotics{
+    height: 400px;
+    width: 400px;
+    border-radius: 15%;
+    padding: 5px 5px 5px;
+    background-color: red;
+
+}
+.RedLine{
+    border: 5px solid red;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.anim1{
+    font-size: 1.5rem;
+    color: darkkhaki;
+}
+
+.anim2{
+    font-size: 1.5rem;
+    color: darkkhaki;
+
+}
+.anim3{
+    font-size: 1.5rem;
+    color: darkkhaki;
+
+}
+.bike{
+    height: 400px;
+    width: 400px;
+    border-radius: 15%;
+    padding: 5px 5px 5px;
+    background-color: yellow;
+}
+.yellowLine{
+    border: 5px solid yellow;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.proj1{
+    text-align: center;
+    background-color: green;
+    border-radius: 8px;
+    
+}
+.whiteDot{
+    border:none;
+    border-top:5px dotted white; 
+    color:white;
+    background-color:green;
+    height:1px;
+    width:100%;
+
+}
+
+.proj2{
+    text-align: center;
+    background-color:  purple;
+    border-radius: 8px;
+}
+
+.bricepshr{
+    border:none;
+    border-top:5px dotted white; 
+    color:white;
+    background-color:purple;
+    height:1px;
+    width:100%;
+
+}
+
+.proj3{
+    text-align: center;
+    background-color: cadetblue;
+    border-radius: 8px;
+}
+
+.proj3Dot{
+    border:none;
+    border-top:5px dotted white; 
+    color:white;
+    background-color:cadetblue;
+    height:1px;
+    width:100%;
+
+
+}
+
+.proj4{
+    text-align: center;
+    background-color: darkolivegreen;
+    border-radius: 8px;
+}
+.proj4hr{
+    border:none;
+    border-top:5px dotted white; 
+    color:white;
+    background-color:darkolivegreen;
+    height:1px;
+    width:100%;
+
+}
+
+.proj5{
+    text-align: center;
+    background-color: black;
+    border-radius: 8px;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    background: #3586ff;
+    min-height: 100px;
+    padding: 20px 50px;
+}
+
+
+
+
+
+/*Work heading animation*/
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 960px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: green;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: red;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: yellow;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: yellow;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FDB731;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+
+.myLogo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.nav-link{
+    background-color: #CBC3E3;
+    border: 15%;
+}
+
